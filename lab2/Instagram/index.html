@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<!-- Instructions: Add a link to the stylesheet 'styles.css' at the designated spot below. -->
+
+<!-- Hints:
+
+* sample link: <link href="path-to-stylesheet/stylesheet.css" rel="stylesheet">
+* path to stylesheet: "css/styles.css"
+
+-->
+
+<html>
+<head>
+	<title>Facebook</title>
+	<link href="stylesheet.css" rel="stylesheet">
+</head>
+<body>
+<div class = "container">
+    <div id = "logo">
+	<img id = "logo_facebook" src = instagram_logo.png alt = "Logo" width=70%>
+    </div>
+    <div id = "form">
+            <div class="box">
+              <div class="heading"></div>
+              <form class="login-form">
+                <div class="field">
+                  <input
+                    id="username"
+                    type="name"
+                    placeholder="Phone number, username, or email"
+                  />
+                  <label for="username">Phone number, username, or email</label>
+                </div>
+                <div class="field">
+                  <input id="password" type="password" placeholder="password" />
+                  <label for="password">Password</label>
+                </div>
+                  <button class="login-button" title="login">Log In</button>
+                  <div class="separator">
+                    <div class="line"></div>
+                    <p>OR</p>
+                    <div class="line"></div>
+                  </div>
+                <div class="other">
+                  <button class="fb-login-btn" type="button">
+                    <i class="fa fa-facebook-official fb-icon"></i>
+                    <span class="">Log in with Facebook</span>
+                  </button>
+                  <a class="forgot-password" href="#">Forgot password?</a>
+                </div>
+              </form>
+            </div>
+            <div class="box">
+              <p>Don't have an account? <a class="signup" href="#">Sign Up</a></p>
+            </div>
+    </div>
+</div>
+</body>
+</html>
